@@ -1,6 +1,6 @@
 # Gaussian Mixture Model
 
-## 🛠️ Architecture Design
+## Experimental Example
 ![GMM Result](/assets/rotating_3d_plot.gif)
 
 
