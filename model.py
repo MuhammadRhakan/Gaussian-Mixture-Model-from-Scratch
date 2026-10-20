@@ -93,9 +93,9 @@ class CustomGMM:
         sum_responsibilities[sum_responsibilities == 0] = 1e-10
         responsibilities /= sum_responsibilities
 
-        self.log_likelihood = np.sum(np.log(sum_responsibilities))
+        log_likelihood = np.sum(np.log(sum_responsibilities))
         self.responsibilities = responsibilities
-        return self.log_likelihood
+        return log_likelihood
 
 
     def maximization_step(self, X):
